@@ -30,4 +30,4 @@ jobs:
 
       - name: Build Docker image (CI validation)
         run: |
-          docker build -t cloud-monitoring:ci
+          docker build -t cloud-monitoring:ci .
